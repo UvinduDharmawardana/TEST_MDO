@@ -1,0 +1,64 @@
+  insert into mft_sftp_ConfigTable values ('NOKEY','3188','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/ZEN','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+  insert into mft_sftp_ConfigTable values ('NOKEY','522','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/MNC/CSV','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+  insert into mft_sftp_ConfigTable values ('NOKEY','5873','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/INV','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+  insert into mft_sftp_ConfigTable values ('NOKEY','2555','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/HGP','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+  insert into mft_sftp_ConfigTable values ('NOKEY','2691','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/HVL/CSV','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+  insert into mft_sftp_ConfigTable values ('NOKEY','2691','export.sftp.m3as.com','M3','PULL','22','mdoffice-sftp','Urb9kac','/HPH','C:\MFT-SFTP-Automation','\VARIABLE\VARIABLE','DAILY',30,getdate(),getdate(),'NEW SCHEDULE')
+
+
+
+  
+insert into mft_sftp_ConfigTable_Aux values (30,'HotelId','975','Report1Contains','ZEN - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (30,'HotelId','975','Report2Contains','ZEN - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (30,'HotelId','975','Report3Contains','ZEN - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (30,'HotelId','975','Report4Contains','ZEN - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (30,'HotelId','975','Report5Contains','ZEN - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+
+insert into mft_sftp_ConfigTable_Aux values (27,'HotelId','67','Report1Contains','CHI - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (27,'HotelId','67','Report2Contains','CHI - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (27,'HotelId','67','Report3Contains','CHI - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (27,'HotelId','67','Report4Contains','CHI - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (27,'HotelId','67','Report5Contains','CHI - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+insert into mft_sftp_ConfigTable_Aux values (31,'HotelId','240','Report1Contains','MCN - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (31,'HotelId','240','Report2Contains','MCN - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (31,'HotelId','240','Report3Contains','MCN - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (31,'HotelId','240','Report4Contains','MCN - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (31,'HotelId','240','Report5Contains','MCN - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+insert into mft_sftp_ConfigTable_Aux values (32,'HotelId','3323','Report1Contains','INV - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (32,'HotelId','3323','Report2Contains','INV - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (32,'HotelId','3323','Report3Contains','INV - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (32,'HotelId','3323','Report4Contains','INV - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (32,'HotelId','3323','Report5Contains','INV - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+insert into mft_sftp_ConfigTable_Aux values (33,'HotelId','769','Report1Contains','HGP - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (33,'HotelId','769','Report2Contains','HGP - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (33,'HotelId','769','Report3Contains','HGP - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (33,'HotelId','769','Report4Contains','HGP - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (33,'HotelId','769','Report5Contains','HGP - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+insert into mft_sftp_ConfigTable_Aux values (34,'HotelId','2691','Report1Contains','HVL - GL Post Date Added','LOCAL_DestinationFolderSub','\ExpenseData\M3Report','','','','')
+insert into mft_sftp_ConfigTable_Aux values (34,'HotelId','2691','Report2Contains','HLV - Budget Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (34,'HotelId','2691','Report3Contains','HLV - Forecast Export 2020_ADR','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (34,'HotelId','2691','Report4Contains','HLV - Budget Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+insert into mft_sftp_ConfigTable_Aux values (34,'HotelId','2691','Report5Contains','HLV - Forecast Export 2020_RoomsRented','LOCAL_DestinationFolderSub','\ADRRoomsRented\ADRRoomsRented','','','','')
+
+
+
+  insert into mft_sftp_ConfigTable_Aux values (36,'HotelId','1112','Report1Contains','YOWMC_MRDW','LOCAL_DestinationFolderSub','/MRDW/ForcastRoomRevenue','SFTP_SourceDestination','/mdo-hilton-gro-system/InnVest/MRDW','','')
+  insert into mft_sftp_ConfigTable_Aux values (36,'HotelId','1112','Report1Contains','YOWMC_OYv2','LOCAL_DestinationFolderSub','/OneYield/ForcastRoomRevenue','SFTP_SourceDestination','/mdo-hilton-gro-system/InnVest/OneYield','','')
+
+  update  [Perspective].[dbo].[mft_sftp_ConfigTable_Aux] set Param3Value = '\MRDW\ForcastRoomRevenue' where Param2Value = 'YOWMC_MRDW'
+  update  [Perspective].[dbo].[mft_sftp_ConfigTable_Aux] set Param3Value = '\OneYield\ForcastRoomRevenue' where Param2Value = 'YOWMC_OYv2'
+  --update  [Perspective].[dbo].[mft_sftp_ConfigTable_Aux] set Param3Value = 'YOWMC_OYv2_Extract' where RecordId = 51
+
+  update  [Perspective].[dbo].[mft_sftp_ConfigTable_Aux] set Param2Value = 'YOWMC_OYv2_Extract' where RecordId = 51
+
+
